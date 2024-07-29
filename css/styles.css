@@ -429,7 +429,9 @@ p {
   background-color: #404bbf;
 }
 
-.team-soc-link-a:focus,
+.team-soc-link-a:focus {
+  background-color: #404bbf;
+}
 .team-soc-link-a:active {
   background-color: #404bbf;
 }
@@ -502,8 +504,16 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-box-soc-a:hover,
-.footer-box-soc-a:focus,
+.footer-box-soc-a:hover {
+  background-color: #31d0aa;
+}
+.footer-box-soc-a:focus {
+  background-color: #31d0aa;
+}
 .footer-box-soc-a:active {
   background-color: #31d0aa;
+}
+
+.footer-box-soc-icon {
+  fill: #f4f4fd;
 }
